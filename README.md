@@ -1,2 +1,2 @@
 # Patterns
-## Just understanding Pattern solving questions
+ Just understanding Pattern solving questions
