@@ -7,14 +7,28 @@ int main()
     char ch, c = 'A';
     cout << "Enter num\n";
     cin >> n;
-    for (int i = 1; i <= n; i++)
+    // for (int i = 1; i <= n; i++)
+    // {
+    //     for (int j = 1; j <= i; j++)
+    //     {
+    //         ch = c + i-1;
+    //         cout << ch;
+    //     }
+    //     cout << endl;
+    // }
+    int i = 1;
+    while (i <= n)
     {
-        for (int j = 1; j <= i; j++)
+        int j = 1;
+        char ch, c = 'A';
+        while (j <= i)
         {
-            ch = c + i-1;
-            cout << ch;
+            ch = c + i - 1;
+            cout<<ch;
+            j++;
         }
         cout << endl;
+        i++;
     }
 
     return 0;
